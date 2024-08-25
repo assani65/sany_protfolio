@@ -656,7 +656,7 @@ header .head .header-img {
 }
 .auto-text-animation marquee .text-border {
   color: transparent;
-  -webkit-text-stroke: 3px #191b1c;
+  -webkit-text-stroke: 1px #c6c8ca;
 }
 
 .blog {
