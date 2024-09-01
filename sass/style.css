@@ -156,6 +156,7 @@ li {
 }
 .primary-button:hover {
   color: white;
+  background-color: #ed2024;
   transform: translateY(-5px);
   transition: all 0.3s ease-in-out;
 }
@@ -225,7 +226,7 @@ li {
   align-items: center;
   height: 30px;
   width: 30px;
-  background: #1d1d1d;
+  background: #ed2024;
   margin-right: 8px;
   color: white;
   font-size: 16px;
@@ -393,6 +394,15 @@ header .menu .navbar .container-fluid .navbar-brand img {
   width: 110px;
   height: auto;
 }
+header .menu .navbar .active {
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  color: #ed2024;
+}
+header .menu .navbar .active a {
+  transition: all 0.3s ease-in-out;
+  color: #ed2024 !important;
+}
 header .menu .navbar .nav-item {
   margin: 0 10px;
 }
@@ -404,7 +414,7 @@ header .menu .navbar .nav-item .nav-link {
   font-weight: 500;
 }
 header .menu .navbar .nav-item .nav-link:hover {
-  color: #333333;
+  color: #ed2024;
   transition: all 0.3s ease-in-out;
 }
 header .menu .navbar .mt-3 {
@@ -424,7 +434,7 @@ header .head .header-text h2 {
 }
 header .head .header-text h1 {
   font-size: 70px;
-  color: black;
+  color: #ed2024;
   margin-bottom: 0;
 }
 header .head .header-text h3 {
@@ -480,11 +490,15 @@ header .head .header-img {
   font-size: 50px;
   font-weight: 900;
   color: #1d1d1d;
+  transition: all 0.3s ease-in-out;
 }
 .my-score .score h3 .fa-star {
   color: goldenrod;
   font-size: 18px;
   transform: translateX(10px);
+}
+.my-score .score:hover h3 {
+  color: #ed2024;
 }
 .my-score .br-none {
   border-right: none;
@@ -514,7 +528,7 @@ header .head .header-img {
 .service .service-wrapper .service-icon {
   margin-bottom: 20px;
   font-size: 30px;
-  color: #333333;
+  color: #ed2024;
 }
 .service .service-wrapper h3 {
   color: black;
@@ -541,9 +555,6 @@ header .head .header-img {
 }
 .service .service-wrapper:hover {
   background: black;
-}
-.service .service-wrapper:hover .service-icon {
-  color: rgb(255, 255, 255);
 }
 .service .service-wrapper:hover h3 {
   color: rgb(255, 255, 255);
@@ -696,7 +707,8 @@ header .head .header-img {
   border-radius: 5px;
 }
 .blog .blog-slide .blog-item .date span {
-  color: rgb(255, 255, 255);
+  color: #ed2024;
+  font-weight: 500;
 }
 .blog .blog-slide .blog-item .blog-headline {
   margin-bottom: 10px;
@@ -736,7 +748,8 @@ header .head .header-img {
   transition: all 0.3s ease-in-out;
 }
 .blog .blog-slide .owl-nav .owl-next:hover {
-  background: #333333;
+  background: #ed2024;
+  border: #ed2024;
   color: rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
 }
@@ -754,7 +767,8 @@ header .head .header-img {
   transition: all 0.3s ease-in-out;
 }
 .blog .blog-slide .owl-nav .owl-prev:hover {
-  background: #333333;
+  background: #ed2024;
+  border: #ed2024;
   color: rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
 }
@@ -814,7 +828,8 @@ header .head .header-img {
   transition: all 0.3s ease-in-out;
 }
 .testimonial .testimonial-slider .owl-nav .owl-next:hover {
-  background: #333333;
+  background: #ed2024;
+  border: #ed2024;
   color: rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
 }
@@ -835,7 +850,8 @@ header .head .header-img {
   transition: all 0.3s ease-in-out;
 }
 .testimonial .testimonial-slider .owl-nav .owl-prev:hover {
-  background: #333333;
+  background: #ed2024;
+  border: #ed2024;
   color: rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
 }
@@ -909,6 +925,7 @@ header .head .header-img {
   width: 100%;
 }
 .contact .any-update h3 {
+  color: #ed2024;
   line-height: 30px;
   margin-bottom: 20px;
   font-size: 22px;
