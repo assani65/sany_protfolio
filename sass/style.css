@@ -683,6 +683,9 @@ header .head .header-img {
 .blog .blog-slide .blog-item .blog-images {
   position: relative;
 }
+.blog .blog-slide .blog-item .blog-images img {
+  filter: grayscale(0.5);
+}
 .blog .blog-slide .blog-item .blog-images .blog-text {
   margin-bottom: -20px;
   position: absolute;
@@ -707,7 +710,7 @@ header .head .header-img {
   border-radius: 5px;
 }
 .blog .blog-slide .blog-item .date span {
-  color: #ed2024;
+  color: rgb(255, 255, 255);
   font-weight: 500;
 }
 .blog .blog-slide .blog-item .blog-headline {
@@ -716,6 +719,9 @@ header .head .header-img {
 .blog .blog-slide .blog-item .blog-headline h3 {
   color: #212529;
   font-size: 25px;
+}
+.blog .blog-slide .blog-item:hover .blog-headline h3 {
+  color: #ed2024;
 }
 .blog .blog-slide .blog-item .primary-button {
   font-weight: 400;

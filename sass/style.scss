@@ -443,6 +443,9 @@ header{
             position: relative;
             .blog-images{
                 position: relative;
+                img{
+                    filter: grayscale(.5);
+                }
                 .blog-text{
                     margin-bottom: -20px;
                     position: absolute;
@@ -469,7 +472,7 @@ header{
                 background: $col1;
                 border-radius: 5px;
                 span{
-                    color: #ed2024;
+                    color: $white;
                     font-weight: 500;
                 }
             }
@@ -478,6 +481,13 @@ header{
                 h3{
                     color: #212529;
                     font-size: 25px;
+                }
+            }
+            &:hover{
+                .blog-headline{
+                    h3{
+                        color: #ed2024;
+                    }
                 }
             }
             .primary-button{
