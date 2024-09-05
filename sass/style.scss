@@ -339,7 +339,7 @@ header{
                 }
             }
             .active{
-                background: $col1;
+                background: #ed2024;
                 color: $white;
             }
         }
@@ -608,7 +608,7 @@ header{
                 border-radius: 50%;
                 transition: $transition;
                 &:hover{
-                    background: #ed2024;
+                    background: #ed2024 !important;
                     border: #ed2024;
                     color: $white;
                     transition: $transition;
@@ -630,7 +630,7 @@ header{
                 border-radius: 50%;
                 transition: $transition;
                 &:hover{
-                    background: #ed2024;
+                    background: #ed2024 !important;
                     border: #ed2024;
                     color: $white;
                     transition: $transition;
