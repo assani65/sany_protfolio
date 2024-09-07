@@ -455,6 +455,12 @@ header{
                     background: white;
                     opacity: .0;
                     transition: $transition;
+                    .blog-p-text{
+                        display: -webkit-box;
+                        overflow: hidden;
+                        -webkit-box-orient: vertical;
+                        -webkit-line-clamp: 3;
+                    }
                 }
                 &:hover{
                     .blog-text{
