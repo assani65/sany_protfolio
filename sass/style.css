@@ -578,7 +578,7 @@ header .head .header-img {
   color: rgb(255, 255, 255);
 }
 .project .gallery ul .active {
-  background: #333333;
+  background: #ed2024;
   color: rgb(255, 255, 255);
 }
 .project .gallery .product {
@@ -839,7 +839,7 @@ header .head .header-img {
   transition: all 0.3s ease-in-out;
 }
 .testimonial .testimonial-slider .owl-nav .owl-next:hover {
-  background: #ed2024;
+  background: #ed2024 !important;
   border: #ed2024;
   color: rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
@@ -861,7 +861,7 @@ header .head .header-img {
   transition: all 0.3s ease-in-out;
 }
 .testimonial .testimonial-slider .owl-nav .owl-prev:hover {
-  background: #ed2024;
+  background: #ed2024 !important;
   border: #ed2024;
   color: rgb(255, 255, 255);
   transition: all 0.3s ease-in-out;
