@@ -471,9 +471,6 @@ header .head .header-text .top-social ul li a:hover {
 header .head .btn-group {
   margin-top: 10px;
 }
-header .head .header-img {
-  filter: grayscale(1);
-}
 
 .my-score {
   border-top: 2px solid #333333;
